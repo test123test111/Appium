@@ -9,8 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -30,8 +28,7 @@ public class ExcelUtil {
 
 	// 设定要操作的 Excel 的文件路径和 Excel 文件中的 sheet 名称
 	// 在读写excel的时候，均需要先调用此方法，设定要操作的 excel 文件路径和要操作的 sheet 名称
-	public ExcelUtil(String Path, String SheetName)
-			throws Exception {
+	public ExcelUtil(String Path, String SheetName)throws Exception {
 		FileInputStream ExcelFile;
 		
 		try {
@@ -39,7 +36,7 @@ public class ExcelUtil {
 			ExcelFile = new FileInputStream(Path);
 			// 实例化 excel 文件的 XSSFWorkbook 对象
 			ExcelWBook = new XSSFWorkbook(ExcelFile);
-// 实例化 XSSFSheet 对象，指定 excel 文件中的 sheet 名称，后续用于 sheet 中行、列和单元格的操作
+			// 实例化 XSSFSheet 对象，指定 excel 文件中的 sheet 名称，后续用于 sheet 中行、列和单元格的操作
 			ExcelWSheet = ExcelWBook.getSheet(SheetName);
 
 		} catch (Exception e) {
