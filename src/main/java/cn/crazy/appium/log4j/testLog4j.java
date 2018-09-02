@@ -5,6 +5,7 @@ import org.apache.log4j.PropertyConfigurator;
 
 
 public class testLog4j {
+
     public static void main(String argv[]) {
     
         // Create a logger by the name of class Log4jTest.
