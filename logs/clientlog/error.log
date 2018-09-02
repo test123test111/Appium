@@ -1,0 +1,120 @@
+2018-08-19 12:30:19  [ main:0 ] - [ DEBUG ]  main杀掉服务进程成功
+2018-08-19 12:30:19  [ main:124 ] - [ DEBUG ]  main执行dos命令：-----adb devices------成功
+2018-08-19 12:30:19  [ main:251 ] - [ DEBUG ]  main执行dos命令：-----netstat -ano|findstr 4490------成功
+2018-08-19 12:30:19  [ main:253 ] - [ DEBUG ]  main4490   端口未被占用
+2018-08-19 12:30:19  [ main:309 ] - [ DEBUG ]  main执行dos命令：-----adb devices------成功
+2018-08-19 12:30:19  [ main:385 ] - [ DEBUG ]  main执行dos命令：-----netstat -ano|findstr 3456------成功
+2018-08-19 12:30:19  [ main:385 ] - [ DEBUG ]  main3456   端口未被占用
+2018-08-19 12:30:19  [ main:444 ] - [ DEBUG ]  main执行dos命令：-----adb devices------成功
+2018-08-19 12:30:19  [ main:524 ] - [ ERROR ]  main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819123019+a64c4287d540.log------失败
+java.lang.NumberFormatException: For input string: "20180819123019"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:109)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+2018-08-19 12:30:20  [ main:597 ] - [ DEBUG ]  main执行dos命令：-----adb devices------成功
+2018-08-19 12:31:31  [ main:0 ] - [ DEBUG ]  main杀掉服务进程成功
+2018-08-19 12:31:31  [ main:120 ] - [ DEBUG ]  main执行dos命令：-----adb devices------成功
+2018-08-19 12:31:32  [ main:251 ] - [ DEBUG ]  main执行dos命令：-----netstat -ano|findstr 4490------成功
+2018-08-19 12:31:32  [ main:253 ] - [ DEBUG ]  main4490   端口未被占用
+2018-08-19 12:31:32  [ main:308 ] - [ DEBUG ]  main执行dos命令：-----adb devices------成功
+2018-08-19 12:31:32  [ main:387 ] - [ DEBUG ]  main执行dos命令：-----netstat -ano|findstr 3456------成功
+2018-08-19 12:31:32  [ main:388 ] - [ DEBUG ]  main3456   端口未被占用
+2018-08-19 12:31:32  [ main:447 ] - [ DEBUG ]  main执行dos命令：-----adb devices------成功
+2018-08-19 12:31:32  [ main:525 ] - [ ERROR ]  main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819123132+a64c4287d540.log------失败
+java.lang.NumberFormatException: For input string: "20180819123132"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:109)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+2018-08-19 12:31:32  [ main:599 ] - [ DEBUG ]  main执行dos命令：-----adb devices------成功
+2018-08-19 12:33:16  [ main:525 ] - [ ERROR ]  main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819123316+a64c4287d540.log------失败
+java.lang.NumberFormatException: For input string: "20180819123316"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:109)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+2018-08-19 12:38:23  [ main:515 ] - [ ERROR ]  main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819123823+a64c4287d540.log------失败
+java.lang.NumberFormatException: For input string: "20180819123823"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:109)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+2018-08-19 12:42:14  [ main:534 ] - [ ERROR ]  main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819124214+a64c4287d540.log------失败
+java.lang.NumberFormatException: For input string: "20180819124214"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:109)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+2018-08-19 12:48:21  [ main:521 ] - [ ERROR ]  main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819124821+a64c4287d540.log------失败
+java.lang.NumberFormatException: For input string: "20180819124821"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:116)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+2018-08-19 12:52:33  [ main:32 ] - [ ERROR ]  main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819124821+a64c4287d540.log------失败
+java.lang.NumberFormatException: For input string: "20180819124821"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.util.DosCmd.main(DosCmd.java:143)
+2018-08-19 12:55:31  [ main:29 ] - [ ERROR ]  main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819124821+a64c4287d540.log------失败
+java.io.IOException: Cannot run program "appium": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:36)
+	at cn.crazy.appium.util.DosCmd.main(DosCmd.java:143)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 6 more
+2018-08-19 12:55:41  [ main:22 ] - [ ERROR ]  main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819124821+a64c4287d540.log------失败
+java.io.IOException: Cannot run program "appium": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:36)
+	at cn.crazy.appium.util.DosCmd.main(DosCmd.java:143)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 6 more
+2018-08-19 12:57:43  [ main:50 ] - [ ERROR ]  main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819124821+a64c4287d540.log------失败
+java.lang.NumberFormatException: For input string: "20180819124821"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.util.DosCmd.main(DosCmd.java:143)

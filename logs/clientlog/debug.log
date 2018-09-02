@@ -1,0 +1,1061 @@
+2018-08-19 12:05:18  [ main:0 ] - [ DEBUG ]  main杀掉服务进程成功
+2018-08-19 12:05:22  [ main:4360 ] - [ DEBUG ]  main执行dos命令：-----adb devices------成功
+2018-08-19 12:05:22  [ main:4494 ] - [ DEBUG ]  main执行dos命令：-----netstat -ano|findstr 4490------成功
+2018-08-19 12:05:22  [ main:4496 ] - [ DEBUG ]  main4490   端口未被占用
+2018-08-19 12:05:22  [ main:4552 ] - [ DEBUG ]  main执行dos命令：-----adb devices------成功
+2018-08-19 12:05:22  [ main:4622 ] - [ DEBUG ]  main执行dos命令：-----netstat -ano|findstr 3456------成功
+2018-08-19 12:05:22  [ main:4623 ] - [ DEBUG ]  main3456   端口未被占用
+2018-08-19 12:05:23  [ main:4830 ] - [ DEBUG ]  main执行dos命令：-----adb devices------成功
+2018-08-19 12:05:23  [ main:4897 ] - [ ERROR ]  main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819120523+a64c4287d540.log------失败
+java.lang.NumberFormatException: For input string: "20180819120523"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:109)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+2018-08-19 12:05:23  [ main:4982 ] - [ DEBUG ]  main执行dos命令：-----adb devices------成功
+[CrazyAppium] 2018/08/19 12:22:21  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/19 12:22:21  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:22:21  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/19 12:22:21  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/19 12:22:22  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:22:22  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/19 12:22:22  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口未被占用 
+[CrazyAppium] 2018/08/19 12:22:22  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:22:22  ERROR main cn.crazy.appium.util.DosCmd:57 - main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819122222+a64c4287d540.log------失败 
+java.lang.NumberFormatException: For input string: "20180819122222"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:109)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+[CrazyAppium] 2018/08/19 12:22:22  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:25:27  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/19 12:25:27  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:25:27  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/19 12:25:27  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/19 12:25:27  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:25:27  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/19 12:25:27  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口未被占用 
+[CrazyAppium] 2018/08/19 12:25:27  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:25:27  ERROR main cn.crazy.appium.util.DosCmd:57 - main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819122527+a64c4287d540.log------失败 
+java.lang.NumberFormatException: For input string: "20180819122527"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:109)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+[CrazyAppium] 2018/08/19 12:25:28  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:29:45  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/19 12:29:45  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:29:45  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/19 12:29:45  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/19 12:29:45  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:29:45  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/19 12:29:45  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口未被占用 
+[CrazyAppium] 2018/08/19 12:29:45  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:29:45  ERROR main cn.crazy.appium.util.DosCmd:57 - main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819122945+a64c4287d540.log------失败 
+java.lang.NumberFormatException: For input string: "20180819122945"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:109)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+[CrazyAppium] 2018/08/19 12:29:46  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:30:19  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/19 12:30:19  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:30:19  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/19 12:30:19  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/19 12:30:19  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:30:19  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/19 12:30:19  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口未被占用 
+[CrazyAppium] 2018/08/19 12:30:19  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:30:19  ERROR main cn.crazy.appium.util.DosCmd:57 - main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819123019+a64c4287d540.log------失败 
+java.lang.NumberFormatException: For input string: "20180819123019"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:109)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+[CrazyAppium] 2018/08/19 12:30:20  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:31:31  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/19 12:31:31  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:31:32  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/19 12:31:32  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/19 12:31:32  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:31:32  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/19 12:31:32  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口未被占用 
+[CrazyAppium] 2018/08/19 12:31:32  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:31:32  ERROR main cn.crazy.appium.util.DosCmd:57 - main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819123132+a64c4287d540.log------失败 
+java.lang.NumberFormatException: For input string: "20180819123132"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:109)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+[CrazyAppium] 2018/08/19 12:31:32  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:33:16  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/19 12:33:16  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:33:16  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/19 12:33:16  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/19 12:33:16  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:33:16  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/19 12:33:16  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口未被占用 
+[CrazyAppium] 2018/08/19 12:33:16  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:33:16  ERROR main cn.crazy.appium.util.DosCmd:57 - main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819123316+a64c4287d540.log------失败 
+java.lang.NumberFormatException: For input string: "20180819123316"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:109)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+[CrazyAppium] 2018/08/19 12:33:16  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:38:23  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/19 12:38:23  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:38:23  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/19 12:38:23  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/19 12:38:23  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:38:23  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/19 12:38:23  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口未被占用 
+[CrazyAppium] 2018/08/19 12:38:23  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:38:23  ERROR main cn.crazy.appium.util.DosCmd:57 - main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819123823+a64c4287d540.log------失败 
+java.lang.NumberFormatException: For input string: "20180819123823"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:109)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+[CrazyAppium] 2018/08/19 12:38:24  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:42:14  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行启动appium的命令：------taskkill -F -PID node.exe------成功 
+[CrazyAppium] 2018/08/19 12:42:14  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/19 12:42:14  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:42:14  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/19 12:42:14  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/19 12:42:14  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:42:14  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/19 12:42:14  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口未被占用 
+[CrazyAppium] 2018/08/19 12:42:14  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:42:14  ERROR main cn.crazy.appium.util.DosCmd:57 - main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819124214+a64c4287d540.log------失败 
+java.lang.NumberFormatException: For input string: "20180819124214"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:109)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+[CrazyAppium] 2018/08/19 12:42:14  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:48:20  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行启动appium的命令：------taskkill -F -PID node.exe------成功 
+[CrazyAppium] 2018/08/19 12:48:20  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/19 12:48:20  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:48:20  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/19 12:48:20  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/19 12:48:20  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:48:20  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/19 12:48:20  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口未被占用 
+[CrazyAppium] 2018/08/19 12:48:21  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:48:21  ERROR main cn.crazy.appium.util.DosCmd:57 - main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819124821+a64c4287d540.log------失败 
+java.lang.NumberFormatException: For input string: "20180819124821"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.server.Servers.startServers(Servers.java:116)
+	at cn.crazy.appium.main.AppiumInit.init(AppiumInit.java:15)
+	at cn.crazy.appium.main.AppiumInit.main(AppiumInit.java:36)
+[CrazyAppium] 2018/08/19 12:48:21  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:52:33  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:52:33  ERROR main cn.crazy.appium.util.DosCmd:57 - main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819124821+a64c4287d540.log------失败 
+java.lang.NumberFormatException: For input string: "20180819124821"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.util.DosCmd.main(DosCmd.java:143)
+[CrazyAppium] 2018/08/19 12:55:31  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:55:31  ERROR main cn.crazy.appium.util.DosCmd:57 - main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819124821+a64c4287d540.log------失败 
+java.io.IOException: Cannot run program "appium": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:36)
+	at cn.crazy.appium.util.DosCmd.main(DosCmd.java:143)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 6 more
+[CrazyAppium] 2018/08/19 12:55:41  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:55:41  ERROR main cn.crazy.appium.util.DosCmd:57 - main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819124821+a64c4287d540.log------失败 
+java.io.IOException: Cannot run program "appium": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:36)
+	at cn.crazy.appium.util.DosCmd.main(DosCmd.java:143)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 6 more
+[CrazyAppium] 2018/08/19 12:57:43  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 12:57:43  ERROR main cn.crazy.appium.util.DosCmd:57 - main执行启动appium的命令:------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819124821+a64c4287d540.log------失败 
+java.lang.NumberFormatException: For input string: "20180819124821"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at cn.crazy.appium.util.RandomUtil.getInt(RandomUtil.java:157)
+	at cn.crazy.appium.util.DosCmd.execCmd(DosCmd.java:42)
+	at cn.crazy.appium.util.DosCmd.main(DosCmd.java:143)
+[CrazyAppium] 2018/08/19 12:59:23  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 13:01:6  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 13:02:33  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 13:03:15  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 13:03:15  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/19 13:03:15  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口已经被占用 
+[CrazyAppium] 2018/08/19 13:03:15  DEBUG main cn.crazy.appium.server.Port:29 - main执行启动appium的命令：------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819124821+a64c4287d540.log------成功 
+[CrazyAppium] 2018/08/19 13:03:35  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行启动appium的命令：------taskkill -F -PID node.exe------成功 
+[CrazyAppium] 2018/08/19 13:03:35  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/19 13:03:35  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 13:03:35  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/19 13:03:35  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/19 13:03:35  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 13:03:36  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/19 13:03:36  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口未被占用 
+[CrazyAppium] 2018/08/19 13:03:36  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 13:03:36  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/19 13:03:36  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/19 13:03:37  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/19 13:03:37  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/19 13:03:38  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/19 13:03:38  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/19 13:03:39  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/19 13:03:39  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口已经被占用 
+[CrazyAppium] 2018/08/19 13:03:39  DEBUG main cn.crazy.appium.server.Port:29 - main执行启动appium的命令：------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\43776\Desktop\AutoUI\CrazyAppium\logs\20180819130336+a64c4287d540.log------成功 
+[CrazyAppium] 2018/08/19 13:03:39  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/19 18:19:16  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s a64c4287d540 shell settings get secure default_input_method------成功 
+[CrazyAppium] 2018/08/19 19:58:20  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s a64c4287d540 shell "ime set com.baidu.input_mi/.ImeService"------成功 
+[CrazyAppium] 2018/08/19 21:06:38  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s a64c4287d540 shell "ime set com.baidu.input_mi/.ImeService"------成功 
+[CrazyAppium] 2018/08/19 21:08:59  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s a64c4287d540 shell "ime set com.baidu.input_mi/.ImeService"------成功 
+[CrazyAppium] 2018/08/19 22:10:10  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s a64c4287d540 shell "ime set com.baidu.input_mi/.ImeService"------成功 
+[CrazyAppium] 2018/08/21 12:16:33  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s null shell "ime set null"------成功 
+[CrazyAppium] 2018/08/21 12:30:10  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s null shell "ime set null"------成功 
+[CrazyAppium] 2018/08/21 12:40:24  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s null shell "ime set null"------成功 
+[CrazyAppium] 2018/08/21 14:25:27  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s null shell "ime set null"------成功 
+[CrazyAppium] 2018/08/21 14:32:30  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s null shell "ime set null"------成功 
+[CrazyAppium] 2018/08/21 14:34:44  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s null shell "ime set null"------成功 
+[CrazyAppium] 2018/08/21 14:37:21  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s null shell "ime set null"------成功 
+[CrazyAppium] 2018/08/21 14:51:16  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s null shell "ime set null"------成功 
+[CrazyAppium] 2018/08/21 14:52:4  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s null shell "ime set null"------成功 
+[CrazyAppium] 2018/08/21 14:53:1  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s null shell "ime set null"------成功 
+[CrazyAppium] 2018/08/21 14:56:21  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s null shell "ime set null"------成功 
+[CrazyAppium] 2018/08/21 15:22:5  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s a64c4287d540 shell "ime set com.baidu.input_mi/.ImeService"------成功 
+[CrazyAppium] 2018/08/21 15:23:17  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s a64c4287d540 shell settings get secure default_input_method------成功 
+[CrazyAppium] 2018/08/22 16:28:17  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s a64c4287d540 shell settings get secure default_input_method------成功 
+[CrazyAppium] 2018/08/22 17:13:30  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s null shell "ime set null"------成功 
+[CrazyAppium] 2018/08/22 17:16:48   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:48   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:49   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:49   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:49   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:49   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:50   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:50   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:51   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:51   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:51   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:51   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:52   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:52   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:53   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:53   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:53   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:53   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:54   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:54   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:54   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:54   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:55   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:55   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:56   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:56   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:56   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:56   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:57   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:57   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:58   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:58   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:58   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:58   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:16:59   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:16:59   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:0   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:0   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:0   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:0   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:1   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:1   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:2   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:2   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:2   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:2   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:3   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:3   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:3   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:3   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:4   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:4   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:5   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:5   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:5   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:5   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:6   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:6   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:7   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:7   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:7   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:7   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:8   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:8   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:8   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:8   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:9   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:9   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:10   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:10   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:10   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:10   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:11   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:11   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:11   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:11   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:12   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:12   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:13   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:13   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:13   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:13   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:14   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:14   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:14   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:14   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:15   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:15   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:16   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:16   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:16   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:16   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:17   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:17   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:17   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:18   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:18   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:18   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:19   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:19   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:19   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:19   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:20   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:20   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:21   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:21   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:21   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:21   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:22   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:22   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:23   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:23   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:23   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:23   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:24   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:24   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:24   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:24   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:25   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:25   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:26   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:26   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:26   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:26   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:27   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:27   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:27   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:27   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:28   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:28   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:29   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:29   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:29   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:29   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:30   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:30   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:30   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:30   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:31   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:31   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:32   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:32   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:32   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:32   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:33   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:33   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:34   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:34   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:34   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:34   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:35   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:35   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:35   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:35   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:36   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:36   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:37   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:37   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:37   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:37   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:38   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:38   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:39   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:39   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:39   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:39   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:40   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:40   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:40   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:40   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:41   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:41   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:42   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:42   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:42   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:42   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:43   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:43   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:44   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:44   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:44   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:44   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:45   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:45   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:45   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:45   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:46   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:46   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:47   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:47   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:47   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:47   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:48   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:48   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:48   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:48   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:49   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:49   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:50   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:50   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:50   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:50   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:51   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:51   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:51   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:51   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:52   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:52   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:53   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:53   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:53   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:53   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:54   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:54   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:55   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:55   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:55   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:55   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:56   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:56   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:56   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:56   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:57   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:57   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:58   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:58   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:58   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:58   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:59   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:59   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:17:59   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:17:59   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:0   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:0   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:1   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:1   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:1   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:1   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:2   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:2   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:2   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:2   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:3   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:3   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:4   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:4   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:4   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:4   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:5   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:5   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:6   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:6   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:6   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:6   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:7   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:7   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:7   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:7   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:8   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:8   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:9   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:9   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:9   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:9   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:10   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:10   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:10   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:10   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:11   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:11   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:12   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:12   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:12   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:12   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:13   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:13   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:13   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:13   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:14   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:14   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:15   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:15   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:15   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:15   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:16   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:16   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:16   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:16   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:17   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:17   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:18   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:18   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:18   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:18   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:19   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:19   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:20   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:20   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:20   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:20   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:21   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:21   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:21   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:21   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:22   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:22   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:23   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:23   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:23   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:23   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:24   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:24   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:24   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:24   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:25   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:25   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:26   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:26   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:26   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:26   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:27   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:27   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:27   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:27   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:28   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:28   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:29   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:29   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:29   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:29   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:30   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:30   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:30   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:30   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:31   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:31   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:32   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:32   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:32   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:32   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:33   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:33   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:33   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:33   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:34   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:34   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:35   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:35   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:35   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:35   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:36   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:36   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:36   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:36   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:37   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:37   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:38   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:38   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:38   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:38   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:39   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:39   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:40   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:40   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:40   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:40   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:41   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:41   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:41   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:41   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:42   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:42   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:43   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:43   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:43   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:43   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:44   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:44   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:44   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:44   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:45   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:45   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:46   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:46   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:46   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:46   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:47   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:47   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:47   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:47   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:48   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:48   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:49   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:49   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:49   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:49   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:50   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:50   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:50   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:50   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:51   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:51   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:52   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:52   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:52   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:52   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:53   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:53   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:53   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:53   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:54   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:54   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:55   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:55   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:55   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:55   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:56   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:56   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:56   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:56   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:57   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:57   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:58   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:58   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:58   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:58   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:18:59   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:18:59   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:0   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:0   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:0   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:0   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:1   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:1   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:1   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:1   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:2   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:2   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:3   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:3   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:3   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:3   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:4   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:4   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:4   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:4   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:5   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:5   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:6   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:6   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:6   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:6   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:7   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:7   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:7   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:7   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:8   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:8   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:9   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:9   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:9   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:9   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:10   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:10   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:10   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:10   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:11   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:11   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:12   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:12   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:12   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:12   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:13   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:13   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:13   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:14   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:14   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:14   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:15   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:15   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:15   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:15   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:16   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:16   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:17   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:17   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:17   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:17   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:18   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:18   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:18   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:18   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:19   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:19   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:20   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:20   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:20   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:20   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:21   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:21   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:21   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:21   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:22   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:22   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:23   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:23   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:23   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:23   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:24   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:24   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:24   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:24   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:25   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:25   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:26   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:26   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:26   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:26   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:27   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:27   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:27   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:27   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:28   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:28   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:29   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:29   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:29   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:29   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:30   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:30   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:30   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:30   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:31   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:31   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:31   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:31   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:32   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:32   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:33   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:33   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:33   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:33   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:34   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:34   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:35   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:35   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:35   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:35   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:36   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:36   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:36   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:36   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:37   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:37   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:38   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:38   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:38   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:38   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:39   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:39   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:39   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:39   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:40   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:40   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:41   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:41   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:41   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:41   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:42   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:42   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:42   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:42   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:43   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:43   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:44   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:44   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:44   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:44   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:45   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:45   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:45   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:46   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:46   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:46   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:47   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:47   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:47   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:47   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:48   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:48   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:49   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:49   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:49   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:49   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:19:50   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->720 
+[CrazyAppium] 2018/08/22 17:19:50   INFO main cn.crazy.appium.base.AndroidDriverBase:37 - main获取app应用占用的屏幕宽度为->1280 
+[CrazyAppium] 2018/08/22 17:32:49  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s a64c4287d540 shell "ime set com.baidu.input_mi/.ImeService"------成功 
+[CrazyAppium] 2018/08/22 17:52:42  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb -s a64c4287d540 shell "ime set com.baidu.input_mi/.ImeService"------成功 
+[CrazyAppium] 2018/08/22 19:03:39  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行启动appium的命令：------taskkill -F -PID node.exe------成功 
+[CrazyAppium] 2018/08/22 19:03:39  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/22 19:03:39  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/22 19:03:39  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:03:39  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:03:39  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/22 19:03:39  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/22 19:03:39  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口已经被占用 
+[CrazyAppium] 2018/08/22 19:03:39  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3457------成功 
+[CrazyAppium] 2018/08/22 19:03:39  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3457   端口未被占用 
+[CrazyAppium] 2018/08/22 19:03:39  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/22 19:03:40  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:03:40  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:03:41  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:03:41  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:03:42  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:03:42  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:03:43  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:03:43  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:03:44  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:03:44  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口已经被占用 
+[CrazyAppium] 2018/08/22 19:03:44  DEBUG main cn.crazy.appium.server.Port:29 - main执行启动appium的命令：------appium -p 4490 -bp 3457 -U a64c4287d540>C:\Users\Administrator\Desktop\CrazyAppium\logs\20180822190339+a64c4287d540.log------成功 
+[CrazyAppium] 2018/08/22 19:03:44  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/22 19:57:30  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行启动appium的命令：------taskkill -F -PID node.exe------成功 
+[CrazyAppium] 2018/08/22 19:57:30  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/22 19:57:30  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/22 19:57:30  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:30  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:30  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/22 19:57:30  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/22 19:57:30  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口已经被占用 
+[CrazyAppium] 2018/08/22 19:57:30  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3457------成功 
+[CrazyAppium] 2018/08/22 19:57:30  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3457   端口已经被占用 
+[CrazyAppium] 2018/08/22 19:57:31  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3458------成功 
+[CrazyAppium] 2018/08/22 19:57:31  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3458   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:31  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/22 19:57:31  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:31  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:32  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:32  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:33  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:33  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:34  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:34  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:35  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:35  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:36  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:36  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:38  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:38  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:39  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:39  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:40  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:40  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:41  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:41  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:42  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:42  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:43  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:43  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:44  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:44  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:45  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:45  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:47  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:47  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:48  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:48  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:49  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:49  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:50  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:50  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:51  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:51  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:52  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:52  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 19:57:53  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 19:57:53  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口已经被占用 
+[CrazyAppium] 2018/08/22 19:57:53  DEBUG main cn.crazy.appium.server.Port:29 - main执行启动appium的命令：------appium -p 4490 -bp 3458 -U a64c4287d540>C:\Users\Administrator\Desktop\CrazyAppium\logs\20180822195731+a64c4287d540.log------成功 
+[CrazyAppium] 2018/08/22 19:57:54  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/22 20:09:5  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行启动appium的命令：------taskkill -F -PID node.exe------成功 
+[CrazyAppium] 2018/08/22 20:09:5  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/22 20:09:5  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/22 20:09:6  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 20:09:6  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 20:09:6  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/22 20:09:6  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/22 20:09:6  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口已经被占用 
+[CrazyAppium] 2018/08/22 20:09:6  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3457------成功 
+[CrazyAppium] 2018/08/22 20:09:6  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3457   端口已经被占用 
+[CrazyAppium] 2018/08/22 20:09:6  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3458------成功 
+[CrazyAppium] 2018/08/22 20:09:6  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3458   端口已经被占用 
+[CrazyAppium] 2018/08/22 20:09:6  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3459------成功 
+[CrazyAppium] 2018/08/22 20:09:6  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3459   端口未被占用 
+[CrazyAppium] 2018/08/22 20:09:6  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/22 20:09:6  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 20:09:6  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 20:09:7  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 20:09:7  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 20:09:9  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 20:09:9  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/22 20:09:10  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/22 20:09:10  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口已经被占用 
+[CrazyAppium] 2018/08/22 20:09:10  DEBUG main cn.crazy.appium.server.Port:29 - main执行启动appium的命令：------appium -p 4490 -bp 3459 -U a64c4287d540>C:\Users\Administrator\Desktop\CrazyAppium\logs\20180822200906+a64c4287d540.log------成功 
+[CrazyAppium] 2018/08/22 20:09:10  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/22 20:10:34  DEBUG TestNG cn.crazy.appium.util.DosCmd:29 - TestNG执行dos命令：-----adb -s a64c4287d540 shell "ime set com.baidu.input_mi/.ImeService"------成功 
+[CrazyAppium] 2018/08/23 10:48:52  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行启动appium的命令：------taskkill -F -PID node.exe------成功 
+[CrazyAppium] 2018/08/23 10:48:52  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/23 10:48:53  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/23 10:48:53  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/23 10:48:53  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/23 10:48:53  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/23 10:48:53  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/23 10:48:53  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口未被占用 
+[CrazyAppium] 2018/08/23 10:48:53  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/23 10:48:53  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/23 10:48:53  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/23 10:48:54  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/23 10:48:54  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/23 10:48:56  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/23 10:48:56  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/23 10:48:57  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/23 10:48:57  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/23 10:48:58  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/23 10:48:58  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/23 10:48:59  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/23 10:48:59  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口已经被占用 
+[CrazyAppium] 2018/08/23 10:48:59  DEBUG main cn.crazy.appium.server.Port:29 - main执行启动appium的命令：------appium -p 4490 -bp 3456 -U a64c4287d540>C:\Users\Administrator\Desktop\CrazyAppium\logs\20180823104853+a64c4287d540.log------成功 
+[CrazyAppium] 2018/08/23 10:48:59  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/23 10:50:33  DEBUG TestNG cn.crazy.appium.util.DosCmd:29 - TestNG执行dos命令：-----adb -s a64c4287d540 shell "ime set com.baidu.input_mi/.ImeService"------成功 
+[CrazyAppium] 2018/08/23 16:10:2  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行启动appium的命令：------taskkill -F -PID node.exe------成功 
+[CrazyAppium] 2018/08/23 16:10:2  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/23 16:10:2  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/23 16:10:2  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/23 16:10:2  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/23 16:10:2  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/23 16:10:2  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/23 16:10:2  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口已经被占用 
+[CrazyAppium] 2018/08/23 16:10:3  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3457------成功 
+[CrazyAppium] 2018/08/23 16:10:3  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3457   端口未被占用 
+[CrazyAppium] 2018/08/23 16:10:3  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/23 16:10:3  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/23 16:10:3  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/23 16:10:4  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/23 16:10:4  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/23 16:10:5  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/23 16:10:5  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/23 16:10:6  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/23 16:10:6  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口未被占用 
+[CrazyAppium] 2018/08/23 16:10:7  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/23 16:10:7  DEBUG main cn.crazy.appium.server.Port:29 - main4490   端口已经被占用 
+[CrazyAppium] 2018/08/23 16:10:7  DEBUG main cn.crazy.appium.server.Port:29 - main执行启动appium的命令：------appium -p 4490 -bp 3457 -U a64c4287d540>C:\Users\Administrator\Desktop\CrazyAppium\logs\20180823161003+a64c4287d540.log------成功 
+[CrazyAppium] 2018/08/23 16:10:7  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/23 16:23:41  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行启动appium的命令：------taskkill -F -PID node.exe------成功 
+[CrazyAppium] 2018/08/23 16:23:41  DEBUG main cn.crazy.appium.util.DosCmd:29 - main杀掉服务进程成功 
+[CrazyAppium] 2018/08/23 16:23:41  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/23 16:23:41  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4490------成功 
+[CrazyAppium] 2018/08/23 16:23:41  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4490   端口已经被占用 
+[CrazyAppium] 2018/08/23 16:23:41  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 4491------成功 
+[CrazyAppium] 2018/08/23 16:23:41  DEBUG main cn.crazy.appium.util.DosCmd:29 - main4491   端口未被占用 
+[CrazyAppium] 2018/08/23 16:23:41  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/23 16:23:41  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3456------成功 
+[CrazyAppium] 2018/08/23 16:23:41  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3456   端口已经被占用 
+[CrazyAppium] 2018/08/23 16:23:41  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3457------成功 
+[CrazyAppium] 2018/08/23 16:23:41  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3457   端口已经被占用 
+[CrazyAppium] 2018/08/23 16:23:41  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----netstat -ano|findstr 3458------成功 
+[CrazyAppium] 2018/08/23 16:23:41  DEBUG main cn.crazy.appium.util.DosCmd:29 - main3458   端口未被占用 
+[CrazyAppium] 2018/08/23 16:23:42  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/23 16:23:42  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4491------成功 
+[CrazyAppium] 2018/08/23 16:23:42  DEBUG main cn.crazy.appium.server.Port:29 - main4491   端口未被占用 
+[CrazyAppium] 2018/08/23 16:23:43  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4491------成功 
+[CrazyAppium] 2018/08/23 16:23:43  DEBUG main cn.crazy.appium.server.Port:29 - main4491   端口未被占用 
+[CrazyAppium] 2018/08/23 16:23:44  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4491------成功 
+[CrazyAppium] 2018/08/23 16:23:44  DEBUG main cn.crazy.appium.server.Port:29 - main4491   端口未被占用 
+[CrazyAppium] 2018/08/23 16:23:45  DEBUG main cn.crazy.appium.server.Port:29 - main执行dos命令：-----netstat -ano|findstr 4491------成功 
+[CrazyAppium] 2018/08/23 16:23:45  DEBUG main cn.crazy.appium.server.Port:29 - main4491   端口已经被占用 
+[CrazyAppium] 2018/08/23 16:23:45  DEBUG main cn.crazy.appium.server.Port:29 - main执行启动appium的命令：------appium -p 4491 -bp 3458 -U a64c4287d540>C:\Users\Administrator\Desktop\CrazyAppium\logs\20180823162342+a64c4287d540.log------成功 
+[CrazyAppium] 2018/08/23 16:23:45  DEBUG main cn.crazy.appium.util.DosCmd:29 - main执行dos命令：-----adb devices------成功 
+[CrazyAppium] 2018/08/23 16:25:26  DEBUG TestNG cn.crazy.appium.util.DosCmd:29 - TestNG执行dos命令：-----adb -s a64c4287d540 shell "ime set com.baidu.input_mi/.ImeService"------成功 

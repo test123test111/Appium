@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Suite" parallel="tests" thread-count="2">
+    <test name="test1">
+        <parameter name="udid"  value="127.0.0.1:62001"/>
+        <parameter name="port"  value="4490"/>
+        <classes>
+            <class name="cn.crazy.appium.testngtest.ZhihuTests"/>
+        </classes>
+    </test>
+    <test name="test2">
+        <parameter name="udid"  value="a64c4287d540"/>
+        <parameter name="port"  value="4491"/>
+        <classes>
+            <class name="cn.crazy.appium.testngtest.ZhihuTests"/>
+        </classes>
+    </test>
+</suite>
