@@ -2,8 +2,10 @@
 
 <suite name="Suite" parallel="tests" thread-count="1">
     <listeners>
-        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <!-- //testng的XML配置文件中添加这些内容 -->
+       <!-- <listener class-name="com.netease.qa.testng.TestngRetry" /> -->
+       <listener class-name="com.netease.qa.testng.TestResultListener" />
+       <listener class-name="com.netease.qa.testng.RetryListener" />
     </listeners>
     <test name="a64c4287d540">
         <parameter name="udid" value="a64c4287d540"/>
