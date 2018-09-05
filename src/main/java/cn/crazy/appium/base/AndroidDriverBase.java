@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 import javax.imageio.ImageIO;
 import org.apache.commons.io.FileUtils;
+import org.apache.poi.ss.usermodel.DataFormat;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
@@ -18,6 +19,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import cn.crazy.appium.util.DateFormat;
 import cn.crazy.appium.util.DosCmd;
 import cn.crazy.appium.util.Log;
 import cn.crazy.appium.util.ProUtil;
@@ -36,6 +39,8 @@ import io.appium.java_client.android.AndroidKeyCode;
  */
 public class AndroidDriverBase extends AndroidDriver{
 	
+	public static final String path = "user.dir";
+	public static AndroidDriver<AndroidElement> driver;
 	private Log logger=Log.getLogger(AndroidDriverBase.class);
 	public  String input;//原有输入法
 	public  String udid;//设备的udid
@@ -624,6 +629,32 @@ public class AndroidDriverBase extends AndroidDriver{
 		System.out.println(path+fileName);
 		FileUtils.copyFile(srcFile,new File(path+"/"+fileName+".png"));
 	}
+	
+	public static void takeScreenFail(){
+		File srcFile=driver.getScreenshotAs(OutputType.FILE);
+		try {
+			FileUtils.copyFile(srcFile,new File(path+"/images/Fail/"+DateFormat.format(DateFormat.YYYYMMDDHHMMSS)+".png"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
+	
+	public static void takeScreenSkip(){
+		File srcFile=driver.getScreenshotAs(OutputType.FILE);
+		try {
+			FileUtils.copyFile(srcFile,new File(path+"/images/Skip/"+DateFormat.format(DateFormat.YYYYMMDDHHMMSS)+".png"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
+	
+	
 	//针对元素进行截图
 	public void takeScreenForElement(AndroidElement element,String path,String fileName) throws Exception{
 		 // 获得element的位置和大小
