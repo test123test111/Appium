@@ -1804,7 +1804,7 @@ public class fengzhuang {
 	* @throws  
 	* @author duanhao
 	 */
-	public static String getMysqldata(String database,String selectdate,String selecttable,String where) {
+	public static Object getMysqldata(String database,String selectdate,String selecttable,String where) {
         //数据库连接名称
         String username="root";
         //数据库连接密码
@@ -2323,15 +2323,15 @@ public class fengzhuang {
 		System.out.println(getdate());
 		
 		
-		System.out.println(SplitString("127.0.0.1:62001", ":", 0));
-//		System.out.println(getIntFromString("appium -p 4490 -bp 2253 -U 127.0.0.1:62001>logs/127.0.0.1:62001.log", 0));
-		System.out.println(getRandomInt(10, 11));
-		System.out.println(getRandomFloat(1, 2));
-		System.out.println(getRandomNumber(1));
-		System.out.println(getRandomNumberByLength(10));
-		System.out.println(getRandomChineseStringByLength(300));
-		System.out.println(getRandomSmallEnglishByLength(50));
-		System.out.println(getRandomBigEnglishByLength(50));
+//		System.out.println(SplitString("127.0.0.1:62001", ":", 0));
+////		System.out.println(getIntFromString("appium -p 4490 -bp 2253 -U 127.0.0.1:62001>logs/127.0.0.1:62001.log", 0));
+//		System.out.println(getRandomInt(10, 11));
+//		System.out.println(getRandomFloat(1, 2));
+//		System.out.println(getRandomNumber(1));
+//		System.out.println(getRandomNumberByLength(10));
+//		System.out.println(getRandomChineseStringByLength(300));
+//		System.out.println(getRandomSmallEnglishByLength(50));
+//		System.out.println(getRandomBigEnglishByLength(50));
 	}
 
 	
