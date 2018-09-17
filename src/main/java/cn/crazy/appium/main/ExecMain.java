@@ -1,17 +1,10 @@
 package cn.crazy.appium.main;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.testng.TestNG;
-import org.testng.xml.XmlSuite;
 
-import cn.crazy.appium.server.Port;
-import cn.crazy.appium.server.Servers;
-import cn.crazy.appium.util.DosCmd;
-import cn.crazy.appium.util.FileUtil;
-import cn.crazy.appium.util.XmlUtil;
 
 public class ExecMain {
 	private static final String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";  
