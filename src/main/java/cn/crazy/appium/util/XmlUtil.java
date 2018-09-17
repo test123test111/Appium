@@ -96,9 +96,9 @@ public class XmlUtil {
 		root.addAttribute("thread-count", String.valueOf(deviceList.size()));
 		Element listeners=root.addElement("listeners");
 		Element listener1=listeners.addElement("listener");
-		listener1.addAttribute("class-name", "org.uncommons.reportng.HTMLReporter");
+		listener1.addAttribute("class-name", "com.netease.qa.testng.TestResultListener");
 		Element listener2=listeners.addElement("listener");
-		listener2.addAttribute("class-name", "org.uncommons.reportng.JUnitXMLReporter");
+		listener2.addAttribute("class-name", "com.netease.qa.testng.RetryListener");
 		List<String> s=readXML("configs/device.xml");
 		//{192.168.56.101:5555,4490,192.168.56.102:5555,4491,xxx,4492,yyy,4493}
 		for(int j=0;j<deviceList.size();j++){
